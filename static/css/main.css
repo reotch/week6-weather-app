@@ -1,0 +1,43 @@
+/*Create CSS styling for project Here*/
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: lightcyan;
+}
+
+#search-city{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+button{
+    margin: auto;
+    border-radius: 10px;
+    align-content: center;
+    text-align: center;
+}
+
+#weather-info{
+    text-align: center;
+}
+
+.row{
+    border-radius: 10px;
+}
+
+.card{
+    margin: 3px 0px;
+    height: 70px;
+}
+
+.forcast{
+    background-color: slateblue;
+    color: white;
+}
+
+.humidity{
+    background-color: lightseagreen;
+    color: white;
+}
