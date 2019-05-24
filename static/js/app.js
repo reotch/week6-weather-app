@@ -56,9 +56,12 @@ $("#button-sub").click(
       $('#low').append(low);
       $('#forecast').append(forecast);
       $('#humidity').append(humidity);
+      $('input').val('');
+      $('input').empty();
     });
-  }
-)
+})
+  
+
 
 $(document).keypress(function(e){
     if(e.which == 13) {
@@ -86,6 +89,8 @@ $(document).keypress(function(e){
         $('#low').append(low);
         $('#forecast').append(forecast);
         $('#humidity').append(humidity);
+        $('input').val('');
+        $('input').empty();
     });
     e.preventDefault() // prevents from refreshing
   }

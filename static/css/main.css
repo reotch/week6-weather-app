@@ -2,25 +2,43 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: lightcyan;
+    background-image: linear-gradient(#f9e4ff, #d7dec6);
+}
+
+.whole-card{
+    background-color: darkslateblue;
 }
 
 #search-city{
     width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
-    border-radius: 10px;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 button{
     margin: auto;
-    border-radius: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 4px 10px grey;
+    border: 1px darkgray;
     align-content: center;
     text-align: center;
+    margin-bottom: 5px;
 }
 
 #weather-info{
     text-align: center;
+    text-shadow: 1px 1px 5px lightgray;
+}
+
+.locale{
+    height: 150px;
+    /* border: solid black 2px; */
+    border-radius: 5px;
+    /* background: skyblue; */
+    padding: 10px;
 }
 
 .row{
